@@ -4,5 +4,9 @@ This project aims to use a robot arm to perform daily tasks, such as sorting ite
 
 To test out object detection abilities, use script.py and change the necessary image path in order to import the image for object detection
 
-Using OpenCV, the robot arm is able to "see" the objects laid out in front of it using an external camera, and hence, detect the object. After which, it will carry out the programmed function of <insert later>. This code can be found in robot.py
+Some changes to the logic has been made, and now I intended to use blob detections instead of object detection, code can be found in cracked_camera_detection.py
+
+Using OpenCV, the robot arm is able to "see" the objects laid out in front of it using an external camera, and hence, detect the object. Final code can be found in Final_Robot.py
+  
+
   
